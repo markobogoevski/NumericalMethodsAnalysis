@@ -28,6 +28,7 @@ def regula_falsi(function, a, b, epsilon, convergence_criterion):
     :return: The solution of the function in the interval [a,b] if f(a)*f(b)<0 (if there is a solution in the interval)
     """
     solution_dict = dict()
+    solution_array = list()
     function_print = get_one_line_function_print(function)
     print(f"\nPerforming Regula Falsi on the function: ({function_print}) on the interval [{a},{b}]...")
     if convergence_criterion == 1:
@@ -53,6 +54,7 @@ def regula_falsi(function, a, b, epsilon, convergence_criterion):
           f'======================================================================')
     x_prev = c
     c = get_new_split_point_regula_c(function, a, b)
+    solution_array.append(c)
     print(f'Current interval searched in: [{a},{b}]. Split point(c) for interval: {c}')
 
     iteration_num += 1
@@ -83,6 +85,7 @@ def regula_falsi(function, a, b, epsilon, convergence_criterion):
               f'======================================================================')
         x_prev = c
         c = get_new_split_point_regula_c(function, a, b)
+        solution_array.append(c)
         print(f'Current interval searched in: [{a},{b}]. Split point(c) for interval: {c}')
 
         iteration_num += 1
@@ -103,7 +106,7 @@ def regula_falsi(function, a, b, epsilon, convergence_criterion):
         f'The solution to the function ({function_print}) is {c} with accuracy of {epsilon} by using convergence test: '
         f'({convergence_criterion_print}).\n '
         f'Time of full iteration: {time_elapsed} ms.\nNumber of steps: {iteration_num}')
-    solution_dict['solution'] = c
+    solution_dict['solution'] = solution_array
     solution_dict['time_elapsed'] = time_elapsed
     solution_dict['num_iterations'] = iteration_num
     return solution_dict

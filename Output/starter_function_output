@@ -1,0 +1,2940 @@
+Output for function (x ** 3 - 3 * x ** 2 + 2) :
+
+C:\Users\Marko\Anaconda3\envs\gpuEnv\python.exe "F:/Jupyter notebooks/NumericalMethodsAnalysis_171038/Comparison.py"
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7215415460013366 with accuracy of 0.1 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 1.001 ms.
+Number of steps: 3
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7440414507772021 with accuracy of 0.1 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 1
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7215415460013366 with accuracy of 0.05 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 3
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7338390315715744 with accuracy of 0.05 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 2
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7299774348062598 with accuracy of 0.01 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 1.0 ms.
+Number of steps: 4
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7323079604365516 with accuracy of 0.01 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 4.0 ms.
+Number of steps: 3
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7316436470414389 with accuracy of 0.005 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 1.0 ms.
+Number of steps: 5
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7323079604365516 with accuracy of 0.005 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 4.001 ms.
+Number of steps: 3
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7319709241877715 with accuracy of 0.001 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 6
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320875787454156 with accuracy of 0.001 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 4
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320351375628718 with accuracy of 0.0001 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 7
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320560613109893 with accuracy of 0.0001 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 5
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Iteration number: 8
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320477338327908]. Split point(c) for interval: -0.7320502046470796
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320502046470796].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320502046470796 with accuracy of 1e-05 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 4.0 ms.
+Number of steps: 9
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+X_prev: -0.7320560613109893, X_curr: -0.7320515581180996
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320515581180996 with accuracy of 1e-05 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 6
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Iteration number: 8
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320477338327908]. Split point(c) for interval: -0.7320502046470796
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320502046470796].
+============================================================================================================================================
+
+Iteration number: 9
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320502046470796]. Split point(c) for interval: -0.7320506893042669
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320506893042669].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320506893042669 with accuracy of 1e-06 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 1.997 ms.
+Number of steps: 10
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(x_curr - x_prev) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+X_prev: -0.7320560613109893, X_curr: -0.7320515581180996
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+X_prev: -0.7320515581180996, X_curr: -0.7320509147904934
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320509147904934 with accuracy of 1e-06 by using convergence test: (abs(x_curr - x_prev) < epsilon).
+ Time of full iteration: 1.002 ms.
+Number of steps: 7
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7215415460013366 with accuracy of 0.1 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 3
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7440414507772021 with accuracy of 0.1 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.9990000000000001 ms.
+Number of steps: 1
+F:\Jupyter notebooks\NumericalMethodsAnalysis_171038\utils.py:154: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig = plt.figure(figsize=(12, 8))
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7299774348062598 with accuracy of 0.05 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 4
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7338390315715744 with accuracy of 0.05 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 1.0 ms.
+Number of steps: 2
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7316436470414389 with accuracy of 0.01 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 5
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7323079604365516 with accuracy of 0.01 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 3.0010000000000003 ms.
+Number of steps: 3
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7316436470414389 with accuracy of 0.005 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.9990000000000001 ms.
+Number of steps: 5
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7323079604365516 with accuracy of 0.005 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 5.0 ms.
+Number of steps: 3
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7319709241877715 with accuracy of 0.001 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 6
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320875787454156 with accuracy of 0.001 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 4
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320351375628718 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 7
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320560613109893 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 5
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Iteration number: 8
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320477338327908]. Split point(c) for interval: -0.7320502046470796
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320502046470796].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320502046470796 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 3.0 ms.
+Number of steps: 9
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+X_prev: -0.7320560613109893, X_curr: -0.7320515581180996
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320515581180996 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 6
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Iteration number: 8
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320477338327908]. Split point(c) for interval: -0.7320502046470796
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320502046470796].
+============================================================================================================================================
+
+Iteration number: 9
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320502046470796]. Split point(c) for interval: -0.7320506893042669
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320506893042669].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320506893042669 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 4.001 ms.
+Number of steps: 10
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+X_prev: -0.7320560613109893, X_curr: -0.7320515581180996
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+X_prev: -0.7320515581180996, X_curr: -0.7320509147904934
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320509147904934 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr)) < epsilon).
+ Time of full iteration: 1.0 ms.
+Number of steps: 7
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7215415460013366 with accuracy of 0.1 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 3
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7440414507772021 with accuracy of 0.1 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 1
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7299774348062598 with accuracy of 0.05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 4
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7338390315715744 with accuracy of 0.05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 3.0010000000000003 ms.
+Number of steps: 2
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7316436470414389 with accuracy of 0.01 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 5
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7323079604365516 with accuracy of 0.01 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 2.0 ms.
+Number of steps: 3
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7316436470414389 with accuracy of 0.005 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 5
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7323079604365516 with accuracy of 0.005 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 3.002 ms.
+Number of steps: 3
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7319709241877715 with accuracy of 0.001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 6
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320875787454156 with accuracy of 0.001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 4
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320351375628718 with accuracy of 0.0001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 7
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320560613109893 with accuracy of 0.0001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 5
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Iteration number: 8
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320477338327908]. Split point(c) for interval: -0.7320502046470796
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320502046470796].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320502046470796 with accuracy of 1e-05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 1.0 ms.
+Number of steps: 9
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+X_prev: -0.7320560613109893, X_curr: -0.7320515581180996
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320515581180996 with accuracy of 1e-05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 1.0 ms.
+Number of steps: 6
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Iteration number: 8
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320477338327908]. Split point(c) for interval: -0.7320502046470796
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320502046470796].
+============================================================================================================================================
+
+Iteration number: 9
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320502046470796]. Split point(c) for interval: -0.7320506893042669
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320506893042669].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320506893042669 with accuracy of 1e-06 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 3.0010000000000003 ms.
+Number of steps: 10
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+X_prev: -0.7320560613109893, X_curr: -0.7320515581180996
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+X_prev: -0.7320515581180996, X_curr: -0.7320509147904934
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320509147904934 with accuracy of 1e-06 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 7
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.68 with accuracy of 0.1 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 2
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.1...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.8 with accuracy of 0.1 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 0
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.68 with accuracy of 0.05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 2
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7440414507772021 with accuracy of 0.05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 1
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7215415460013366 with accuracy of 0.01 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 3
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.01...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7338390315715744 with accuracy of 0.01 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 2
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7299774348062598 with accuracy of 0.005 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 4
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.005...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7338390315715744 with accuracy of 0.005 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.9990000000000001 ms.
+Number of steps: 2
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7316436470414389 with accuracy of 0.001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 5
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7323079604365516 with accuracy of 0.001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 1.001 ms.
+Number of steps: 3
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7319709241877715 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.9990000000000001 ms.
+Number of steps: 6
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 0.0001...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320875787454156 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 4
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320477338327908 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 4.002000000000001 ms.
+Number of steps: 8
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-05...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320560613109893 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.9990000000000001 ms.
+Number of steps: 5
+
+Performing Regula Falsi on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Regula falsi start.
+
+Iteration number: 0
+============================================================================================================================================
+Current interval searched in: [-1,4]. Split point(c) for interval: -0.5
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.5].
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+Current interval searched in: [-1,-0.5]. Split point(c) for interval: -0.68
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.68].
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+Current interval searched in: [-1,-0.68]. Split point(c) for interval: -0.7215415460013366
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7215415460013366].
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+Current interval searched in: [-1,-0.7215415460013366]. Split point(c) for interval: -0.7299774348062598
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7299774348062598].
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+Current interval searched in: [-1,-0.7299774348062598]. Split point(c) for interval: -0.7316436470414389
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7316436470414389].
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+Current interval searched in: [-1,-0.7316436470414389]. Split point(c) for interval: -0.7319709241877715
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7319709241877715].
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+Current interval searched in: [-1,-0.7319709241877715]. Split point(c) for interval: -0.7320351375628718
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320351375628718].
+============================================================================================================================================
+
+Iteration number: 7
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320351375628718]. Split point(c) for interval: -0.7320477338327908
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320477338327908].
+============================================================================================================================================
+
+Iteration number: 8
+============================================================================================================================================
+Current interval searched in: [-1,-0.7320477338327908]. Split point(c) for interval: -0.7320502046470796
+Since f(a)*f(c)<0 there must be a solution in [a,c]. Creating new interval [-1,-0.7320502046470796].
+============================================================================================================================================
+
+Regula falsi end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320502046470796 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 3.0 ms.
+Number of steps: 9
+
+Performing Newton Raphson on the function: (x ** 3 - 3 * x ** 2 + 2) on the interval [-1,4]...
+Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+First, checking test conditions for solution existence in the interval [-1,4].
+Checking values of f(a) and f(b).
+Value f(a) = -2
+Value f(b) = 18
+There is a solution in the interval!
+Finding solution given precision 1e-06...
+
+Newton Raphson start.
+
+Iteration number: 0
+============================================================================================================================================
+X_prev: -1, X_curr: -0.8
+============================================================================================================================================
+
+Iteration number: 1
+============================================================================================================================================
+X_prev: -0.8, X_curr: -0.7440414507772021
+============================================================================================================================================
+
+Iteration number: 2
+============================================================================================================================================
+X_prev: -0.7440414507772021, X_curr: -0.7338390315715744
+============================================================================================================================================
+
+Iteration number: 3
+============================================================================================================================================
+X_prev: -0.7338390315715744, X_curr: -0.7323079604365516
+============================================================================================================================================
+
+Iteration number: 4
+============================================================================================================================================
+X_prev: -0.7323079604365516, X_curr: -0.7320875787454156
+============================================================================================================================================
+
+Iteration number: 5
+============================================================================================================================================
+X_prev: -0.7320875787454156, X_curr: -0.7320560613109893
+============================================================================================================================================
+
+Iteration number: 6
+============================================================================================================================================
+X_prev: -0.7320560613109893, X_curr: -0.7320515581180996
+============================================================================================================================================
+
+Newton Raphson end.
+
+The solution to the function (x ** 3 - 3 * x ** 2 + 2) is -0.7320515581180996 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+ Time of full iteration: 0.0 ms.
+Number of steps: 6
+
+Process finished with exit code 0
+

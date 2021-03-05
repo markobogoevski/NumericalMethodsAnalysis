@@ -1,13 +1,25 @@
-from scipy.misc import derivative
 from utils import *
 import datetime
 
 
 def get_next_point_newton_raphson(function, x_prev):
+    """
+    Gets the next interval point using the newton-raphson method
+    :param function: The function for which the method is supposed to be performed
+    :param x_prev: The previous value of x
+    :return: The next x value
+    """
     return x_prev - (function(x_prev) / derivative(function, x_prev))
 
 
 def get_initial_point_x0(function, a, b):
+    """
+    Gets the first interval point using the newton-raphson method
+    :param function: The function for which the method is supposed to be performed
+    :param a: The left side of the interval
+    :param b: The right side of the interval
+    :return: The first split point (First x)
+    """
     second_derivative = derivative(function, a, n=2)
     if second_derivative * function(a) > 0:
         return a
@@ -26,6 +38,7 @@ def newton_raphson(function, a, b, epsilon, convergence_criterion):
     :return: The solution of the function in the interval [a,b] if f(a)*f(b)<0 (if there is a solution in the interval)
     """
     solution_dict = dict()
+    solution_array = list()
     function_print = get_one_line_function_print(function)
     print(f"\nPerforming Newton Raphson on the function: ({function_print}) on the interval [{a},{b}]...")
     if convergence_criterion == 1:
@@ -46,6 +59,7 @@ def newton_raphson(function, a, b, epsilon, convergence_criterion):
     print(f'Iteration number: {iteration_num}')
     x_prev = get_initial_point_x0(function, a, b)  # Initialization step
     x_curr = get_next_point_newton_raphson(function, x_prev)
+    solution_array.append(x_curr)
     print(f'======================================================================'
           f'======================================================================')
     print(f'X_prev: {x_prev}, X_curr: {x_curr}')
@@ -66,6 +80,7 @@ def newton_raphson(function, a, b, epsilon, convergence_criterion):
             break
         x_prev = x_curr
         x_curr = get_next_point_newton_raphson(function, x_prev)
+        solution_array.append(x_curr)
         iteration_num += 1
         print(f'Iteration number: {iteration_num}')
         print(f'======================================================================'
@@ -80,7 +95,7 @@ def newton_raphson(function, a, b, epsilon, convergence_criterion):
         f'The solution to the function ({function_print}) is {x_curr} with accuracy of {epsilon} by using convergence '
         f'test: ({convergence_criterion_print}).\n '
         f'Time of full iteration: {time_elapsed} ms.\nNumber of steps: {iteration_num}')
-    solution_dict['solution'] = x_curr
+    solution_dict['solution'] = solution_array
     solution_dict['time_elapsed'] = time_elapsed
     solution_dict['num_iterations'] = iteration_num
     return solution_dict
