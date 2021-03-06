@@ -1,0 +1,33 @@
+Function,a,b,Epsilon,Convergence Criterion,Method,Solution,Number of iterations,Time elapsed,Convergence,Precision to analytical met
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,1,regula_falsi,0.6155604175665357,3,1.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,1,regula_falsi,0.6155604175665357,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,1,regula_falsi,0.6097140586681732,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,1,regula_falsi,0.6083532021202986,5,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,1,regula_falsi,0.6080357204012665,6,1.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,1,regula_falsi,0.6079616118393742,7,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,1,regula_falsi,0.6079402714538952,9,5.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,1,regula_falsi,0.6079393284353437,10,4.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,2,regula_falsi,0.6408486403229127,2,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,2,regula_falsi,0.6155604175665357,3,1.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,2,regula_falsi,0.6097140586681732,4,1.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,2,regula_falsi,0.6097140586681732,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,2,regula_falsi,0.6080357204012665,6,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,2,regula_falsi,0.6079616118393742,7,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,2,regula_falsi,0.6079402714538952,9,0.9990000000000001,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,2,regula_falsi,0.6079393284353437,10,4.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,3,regula_falsi,0.6155604175665357,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,3,regula_falsi,0.6155604175665357,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,3,regula_falsi,0.6097140586681732,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,3,regula_falsi,0.6083532021202986,5,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,3,regula_falsi,0.6080357204012665,6,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,3,regula_falsi,0.6079443106631915,8,3.0010000000000003,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,3,regula_falsi,0.6079402714538952,9,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,3,regula_falsi,0.6079391082720815,11,3.0010000000000003,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,4,regula_falsi,0.6079390412159374,60,8.001,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,4,regula_falsi,0.6079390412159374,60,13.001000000000001,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,4,regula_falsi,0.6079390412159374,60,10.001,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,4,regula_falsi,0.6079390412159374,60,10.002,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,4,regula_falsi,0.6079390412159374,60,9.0,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,4,regula_falsi,0.6079390412159374,60,9.001,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,4,regula_falsi,0.6079390412159374,60,12.001,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,4,regula_falsi,0.6079390412159374,60,10.002,No,"No, no convergence"

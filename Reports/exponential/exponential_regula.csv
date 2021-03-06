@@ -1,0 +1,33 @@
+Function,a,b,Epsilon,Convergence Criterion,Method,Solution,Number of iterations,Time elapsed,Convergence,Precision to analytical met
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.1,1,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.05,1,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.01,1,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.005,1,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.001,1,regula_falsi,2.1480394905061715,60,5.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.0001,1,regula_falsi,2.1480394905061715,60,11.003,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-05,1,regula_falsi,2.1480394905061715,60,8.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-06,1,regula_falsi,2.1480394905061715,60,10.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.1,2,regula_falsi,2.1480394905061715,60,9.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.05,2,regula_falsi,2.1480394905061715,60,9.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.01,2,regula_falsi,2.1480394905061715,60,11.003,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.005,2,regula_falsi,2.1480394905061715,60,7.002000000000001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.001,2,regula_falsi,2.1480394905061715,60,9.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.0001,2,regula_falsi,2.1480394905061715,60,8.002,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-05,2,regula_falsi,2.1480394905061715,60,8.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-06,2,regula_falsi,2.1480394905061715,60,10.002,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.1,3,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.05,3,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.01,3,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.005,3,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.001,3,regula_falsi,2.1480394905061715,60,12.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.0001,3,regula_falsi,2.1480394905061715,60,8.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-05,3,regula_falsi,2.1480394905061715,60,9.001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-06,3,regula_falsi,2.1480394905061715,60,10.002,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.1,4,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.05,4,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.01,4,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.005,4,regula_falsi,2.002483199652723,1,0.0,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.001,4,regula_falsi,2.113776668972847,46,8.35,Yes,No
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,0.0001,4,regula_falsi,2.1480394905061715,60,11.001000000000001,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-05,4,regula_falsi,2.1480394905061715,60,11.001999999999999,No,"No, no convergence"
+np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x),2,3,1e-06,4,regula_falsi,2.1480394905061715,60,7.001,No,"No, no convergence"
