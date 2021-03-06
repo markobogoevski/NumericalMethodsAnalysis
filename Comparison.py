@@ -2,9 +2,10 @@ from RegulaFalsi import *
 from NewtonRaphson import *
 import os
 import pandas as pd
+import math
 
 
-def generate_comparative_report(function, a, b, report_path, convergence_met=True, analytical_solution=None):
+def generate_comparative_report(function, a, b, report_path, analytical_solution=None):
     """
     A function which generates reports for the provided function by using the numerical methods Regula Falsi and
     Newton Rhapson in the interval [a,b]. The function saves reports and visualizations plots under the folders
@@ -13,7 +14,6 @@ def generate_comparative_report(function, a, b, report_path, convergence_met=Tru
     :param a: The left side of the interval
     :param b: The right side of the interval
     :param report_path: The name of the function under which to save the reports and plots
-    :param convergence_met: Whether the function meets Newton-Rhapson convergence criterions
     :param analytical_solution: The analytical solution to the equation
     :return: None
     """
@@ -56,36 +56,47 @@ def generate_comparative_report(function, a, b, report_path, convergence_met=Tru
             function_print = get_one_line_function_print(function)
             solutions_reg = solution_regula['solution']
             solutions_newt = solution_newton_raphson['solution']
+            convergence_regula = solution_regula['convergence']
+            convergence_newt = solution_newton_raphson['convergence']
 
-            if convergence_met:
-                convergence_string = "Yes"
+            if convergence_regula:
+                convergence_string_reg = "Yes"
                 if analytical_solution is not None:
                     if abs(solutions_reg[-1] - analytical_solution) <= precision:
                         precision_string_regula = "Yes"
                     else:
                         precision_string_regula = "No"
+                else:
+                    precision_string_regula = "No analytical solution provided!"
+            else:
+                convergence_string_reg = "No"
+                precision_string_regula = "No, no convergence"
+            if convergence_newt:
+                convergence_string_newt = "Yes"
+                if analytical_solution is not None:
                     if abs(solutions_newt[-1] - analytical_solution) <= precision:
                         precision_string_newt = "Yes"
                     else:
                         precision_string_newt = "No"
                 else:
-                    precision_string_regula = precision_string_newt = "Yes"
+                    precision_string_newt = "No analytical solution provided!"
             else:
-                convergence_string = "No"
-                precision_string_regula = precision_string_newt = "No"
+                convergence_string_newt = "No"
+                precision_string_newt = "No, no convergence"
+
             regula_row = pd.Series(data={'Function': function_print, 'a': a, 'b': b, 'Epsilon': precision,
                                          'Convergence Criterion': convergence_crit, "Method": "regula_falsi",
                                          'Solution': solution_regula['solution'][-1],
                                          'Number of iterations': solution_regula['num_iterations'],
                                          'Time elapsed': solution_regula['time_elapsed'],
-                                         'Convergence': convergence_string,
+                                         'Convergence': convergence_string_reg,
                                          'Precision to analytical met': precision_string_regula})
             newt_raph_row = pd.Series(data={'Function': function_print, 'a': a, 'b': b, 'Epsilon': precision,
                                             'Convergence Criterion': convergence_crit, "Method": "newton_raphson",
                                             'Solution': solution_newton_raphson['solution'][-1],
                                             'Number of iterations': solution_newton_raphson['num_iterations'],
                                             'Time elapsed': solution_newton_raphson['time_elapsed'],
-                                            'Convergence': convergence_string,
+                                            'Convergence': convergence_string_newt,
                                             'Precision to analytical met': precision_string_newt})
 
             regula_time.append(solution_regula['time_elapsed'])
@@ -132,21 +143,116 @@ def generate_comparative_report(function, a, b, report_path, convergence_met=Tru
     data_newton_raphson.to_csv(final_path_newt_raph, index=False)
 
 
-def test_function(x):
+def starter_function(x):
     """
     A one line function for which to test either the Regula Falsi or the NewtonRaphson method
     :param x: The argument of the function
     :return: The function itself
     """
     return x ** 3 - 3 * x ** 2 + 2
+    # Has an analytical solution of x1=1, x2/3 = += 1-np.sqrt(3)
+
+
+def linear_function(x):
+    """
+    A linear function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return 3 * (x - 3) + 3
+    # Has an analytical solution of x=2
+
+
+def quadratic_function(x):
+    """
+    A quadratic function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return 2 * (x - 2) ** 2 - 10
+    # Has an analytical solution of x1=2-sqrt(5) and x2=2+sqrt(5)
+
+
+def cubic_function(x):
+    """
+    A cubic function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return (-x) ** 3 + x ** 2 - 3
+    # Has an analytical real solution of (1.0 / 3) * (1 - pow((2.0 / (79 - 9 * np.sqrt(77))), 1.0 / 3) - pow((1.0 / 2 *
+    # (79 - 9 * np.sqrt(77))),1.0/3)
+
+
+def root_function(x):
+    """
+    A root function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return pow(x, (1.0 / 3)) - (1 / pow(x, (1.0 / 2))) - 3
+    # Has an analytical real solution of (by digits) 32.0551400884145540883151584074125554591926050266913486210
+
+
+def absolute_value_function(x):
+    """
+    An absolute value function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return abs(x ** 2 - 3 * x + 8) - abs(pow(x / 2, (1.0 / 2))) - 10
+    # Has an analytical real solution of (by digits) -0.700404229147059547116215842548458870154244129188475
+    # and 3.87528794161629661393951658034464365520790087121135. Converges for [0.5,6] and diverges for [-2,-0.5]
+
+
+def reciprocal_function(x):
+    """
+    A reciprocal function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return 1 / (x ** 2) - 1 / (x ** 3) + 1 / (x ** 4) - 4
+    # Has an analytical real solution of (by digits) -0.909469125804229275193458176920764345971697064
+    # and 0.663848177210232222869705336414468422223096010
+
+
+def logarithmic_function(x):
+    """
+    A logarithmic function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2)
+    # Has an analytical real solution of (by digits): 0.607939041215937491647310167310837792295480047
+
+
+def exponential_function(x):
+    """
+    An exponential function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return np.exp(3 * x ** 2 - 3 * x - 10) - np.exp(x)
+    # Has analytical real solutions: 1/3*(2-sqrt(34)) and 1/3*(2+sqrt(34))
+
+
+def trigonometric_function(x):
+    """
+    A trigonometric function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return np.sin(3 * x + 2) + np.cos(4 * x ** 2 - 2)
+    # Has 4 analytical real solutions with varying n e Z. Showing one of them: -3/8 + 1/8 * sqrt(9 - 8*π + 32*π)
 
 
 if __name__ == "__main__":
-    a = -1
-    b = 4
-    epsilon = 1e-20
-    convergence_criterion = 1
+    a = 0.5
+    b = 1
     # solution_regula = regula_falsi(test_function, a, b, epsilon, 1)
     # solution_newton = newton_raphson(test_function, a, b, epsilon, 1)
-    analytical_sol = 1 - np.sqrt(3)
-    generate_comparative_report(test_function, a, b, "starter_function", analytical_solution=analytical_sol)
+    # analytical_sol = (1.0 / 3) * (
+    #        1 - pow((2.0 / (79 - 9 * np.sqrt(77))), 1.0 / 3) - pow((1.0 / 2 * (79 - 9 * np.sqrt(77))), 1.0 / 3))
+    analytical_sol = -3.0 / 8 + 1.0 / 8 + np.sqrt(9 - 8 * np.pi + 32 * np.pi)  # 0.7733563232...
+    generate_comparative_report(trigonometric_function, a, b, "trigonometric_non_contig",
+                                analytical_solution=analytical_sol)

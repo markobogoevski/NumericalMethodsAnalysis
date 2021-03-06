@@ -9,7 +9,7 @@ def get_next_point_newton_raphson(function, x_prev):
     :param x_prev: The previous value of x
     :return: The next x value
     """
-    return x_prev - (function(x_prev) / derivative(function, x_prev))
+    return x_prev - (function(x_prev) / derivative(function, x_prev, dx=1e-7))
 
 
 def get_initial_point_x0(function, a, b):
@@ -20,7 +20,7 @@ def get_initial_point_x0(function, a, b):
     :param b: The right side of the interval
     :return: The first split point (First x)
     """
-    second_derivative = derivative(function, a, n=2)
+    second_derivative = derivative(function, a, n=2, dx=1e-7)
     if second_derivative * function(a) > 0:
         return a
     return b
@@ -39,6 +39,8 @@ def newton_raphson(function, a, b, epsilon, convergence_criterion):
     """
     solution_dict = dict()
     solution_array = list()
+    solution_dict['convergence'] = True
+    max_iterations = 60
     function_print = get_one_line_function_print(function)
     print(f"\nPerforming Newton Raphson on the function: ({function_print}) on the interval [{a},{b}]...")
     if convergence_criterion == 1:
@@ -67,6 +69,10 @@ def newton_raphson(function, a, b, epsilon, convergence_criterion):
           f'======================================================================\n')
     start_time = datetime.datetime.now()
     while True:
+        if iteration_num == max_iterations:
+            solution_dict['convergence'] = False
+            print(f"The method still hasn't converged after 60 iterations...stopping.")
+            break
         if convergence_criterion == 1:
             criterion_satisfied = convergence_criterion_1(epsilon, x_curr, x_prev)
         elif convergence_criterion == 2:

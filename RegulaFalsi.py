@@ -29,6 +29,8 @@ def regula_falsi(function, a, b, epsilon, convergence_criterion):
     """
     solution_dict = dict()
     solution_array = list()
+    solution_dict['convergence'] = True
+    max_iterations = 60
     function_print = get_one_line_function_print(function)
     print(f"\nPerforming Regula Falsi on the function: ({function_print}) on the interval [{a},{b}]...")
     if convergence_criterion == 1:
@@ -69,6 +71,10 @@ def regula_falsi(function, a, b, epsilon, convergence_criterion):
     print(f'======================================================================'
           f'======================================================================\n')
     while True:
+        if iteration_num == max_iterations:
+            solution_dict['convergence'] = False
+            print(f"The method still hasn't converged after 60 iterations...stopping.")
+            break
         if convergence_criterion == 1:
             criterion_satisfied = convergence_criterion_1(epsilon, c, x_prev)
         elif convergence_criterion == 2:
@@ -110,6 +116,3 @@ def regula_falsi(function, a, b, epsilon, convergence_criterion):
     solution_dict['time_elapsed'] = time_elapsed
     solution_dict['num_iterations'] = iteration_num
     return solution_dict
-
-
-
