@@ -15,12 +15,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -44,21 +46,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
-F:\Jupyter notebooks\NumericalMethodsAnalysis_171038\utils.py:166: UserWarning: Attempting to set identical bottom == top == 0.0 results in singular transformations; automatically expanding.
-  plt.setp((ax1, ax2), ylim=y_limits)
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(x_curr - x_prev) < epsilon.
@@ -73,12 +73,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -102,19 +104,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(x_curr - x_prev) < epsilon.
@@ -129,12 +131,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -158,19 +162,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(x_curr - x_prev) < epsilon.
@@ -185,12 +189,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -214,19 +220,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(x_curr - x_prev) < epsilon.
@@ -241,12 +247,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -270,19 +278,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(x_curr - x_prev) < epsilon.
@@ -297,12 +305,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -326,19 +336,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(x_curr - x_prev) < epsilon.
@@ -353,12 +363,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -382,19 +394,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(x_curr - x_prev) < epsilon.
@@ -409,12 +421,14 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -438,19 +452,19 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
 The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs(x_curr - x_prev) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(function(x_curr)) < epsilon.
@@ -465,6 +479,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -488,15 +503,15 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.1 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
-F:\Jupyter notebooks\NumericalMethodsAnalysis_171038\utils.py:154: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+Number of steps: 1
+F:\Jupyter notebooks\NumericalMethodsAnalysis_171038\utils.py:158: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
   fig = plt.figure(figsize=(12, 8))
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
@@ -512,6 +527,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -535,14 +551,14 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.05 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(function(x_curr)) < epsilon.
@@ -557,6 +573,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -580,14 +597,14 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.01 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(function(x_curr)) < epsilon.
@@ -602,6 +619,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -625,14 +643,14 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.005 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(function(x_curr)) < epsilon.
@@ -647,6 +665,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -670,14 +689,14 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.001 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(function(x_curr)) < epsilon.
@@ -692,6 +711,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -715,14 +735,14 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(function(x_curr)) < epsilon.
@@ -737,6 +757,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -760,14 +781,14 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
 Using convergence criterion: abs(function(x_curr)) < epsilon.
@@ -782,6 +803,7 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
@@ -805,17 +827,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -827,24 +849,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -856,22 +880,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -883,24 +907,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -912,22 +938,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -939,24 +965,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -968,22 +996,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -995,24 +1023,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1024,22 +1054,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1051,24 +1081,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1080,22 +1112,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1107,24 +1139,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1136,22 +1170,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1163,24 +1197,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1192,22 +1228,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1219,24 +1255,26 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Iteration number: 1
 ============================================================================================================================================
+0.0
 Current interval searched in: [2.0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 2
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs((x_curr - x_prev) / x_curr) < epsilon.
+Using convergence criterion: abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1248,22 +1286,22 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
-Iteration number: 1
+Iteration number: 2
 ============================================================================================================================================
-X_prev: 2.0, X_curr: 2.0
+X_prev: 1.9999999983634211, X_curr: 2.0
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs((x_curr - x_prev) / x_curr) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 1
+Number of steps: 2
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1275,18 +1313,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1298,17 +1337,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.1 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.1 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1320,18 +1359,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1343,17 +1383,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.05 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1365,18 +1405,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1388,17 +1429,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.01 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.01 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1410,18 +1451,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1433,17 +1475,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.005 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.005 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1455,18 +1497,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1478,17 +1521,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.001 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1500,18 +1543,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
- Time of full iteration: 1.001 ms.
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
+ Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1523,17 +1567,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 0.0001 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1545,18 +1589,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1568,17 +1613,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 1e-05 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Performing Regula Falsi on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1590,18 +1635,19 @@ Regula falsi start.
 
 Iteration number: 0
 ============================================================================================================================================
+-6
 Current interval searched in: [0,3]. Split point(c) for interval: 2.0
 Since f(c)*f(b)<0 there must be a solution in [c,b]. Creating new interval [2.0,3].
 ============================================================================================================================================
 
 Regula falsi end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
 Number of steps: 1
 
 Performing Newton Raphson on the function: (3 * (x - 3) + 3) on the interval [0,3]...
-Using convergence criterion: abs(function(x_curr) / derivative(function, x_curr)) < epsilon.
+Using convergence criterion: abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon.
 First, checking test conditions for solution existence in the interval [0,3].
 Checking values of f(a) and f(b).
 Value f(a) = -6
@@ -1613,14 +1659,17 @@ Newton Raphson start.
 
 Iteration number: 0
 ============================================================================================================================================
-X_prev: 3, X_curr: 2.0
+X_prev: 3, X_curr: 1.9999999983634211
 ============================================================================================================================================
 
 Newton Raphson end.
 
-The solution to the function (3 * (x - 3) + 3) is 2.0 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr) / derivative(function, x_curr)) < epsilon).
+The solution to the function (3 * (x - 3) + 3) is 1.9999999983634211 with accuracy of 1e-06 by using convergence test: (abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon).
  Time of full iteration: 0.0 ms.
-Number of steps: 0
+Number of steps: 1
 
 Process finished with exit code 0
+
+
+
 

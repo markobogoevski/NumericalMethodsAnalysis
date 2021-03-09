@@ -1,4 +1,6 @@
 from utils import *
+import sys
+import math
 import datetime
 
 
@@ -9,6 +11,10 @@ def get_next_point_newton_raphson(function, x_prev):
     :param x_prev: The previous value of x
     :return: The next x value
     """
+    if x_prev == math.inf:
+        x_prev = sys.float_info.max
+    elif x_prev == -math.inf:
+        x_prev = -sys.float_info.max
     return x_prev - (function(x_prev) / derivative(function, x_prev, dx=1e-7))
 
 
@@ -61,6 +67,7 @@ def newton_raphson(function, a, b, epsilon, convergence_criterion):
     print(f'Iteration number: {iteration_num}')
     x_prev = get_initial_point_x0(function, a, b)  # Initialization step
     x_curr = get_next_point_newton_raphson(function, x_prev)
+    iteration_num += 1
     solution_array.append(x_curr)
     print(f'======================================================================'
           f'======================================================================')

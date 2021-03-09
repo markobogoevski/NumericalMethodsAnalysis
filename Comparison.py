@@ -150,7 +150,7 @@ def starter_function(x):
     :return: The function itself
     """
     return x ** 3 - 3 * x ** 2 + 2
-    # Has an analytical solution of x1=1, x2/3 = += 1-np.sqrt(3)
+    # Has an analytical solution of x1=1, x2/3 = +- 1-np.sqrt(3)
 
 
 def linear_function(x):
@@ -180,8 +180,7 @@ def cubic_function(x):
     :return: The function itself
     """
     return (-x) ** 3 + x ** 2 - 3
-    # Has an analytical real solution of (1.0 / 3) * (1 - pow((2.0 / (79 - 9 * np.sqrt(77))), 1.0 / 3) - pow((1.0 / 2 *
-    # (79 - 9 * np.sqrt(77))),1.0/3)
+    # Has an analytical real solution of 1.17455941029298007420231898869565392567594873
 
 
 def root_function(x):
@@ -246,13 +245,19 @@ def trigonometric_function(x):
     # Has 4 analytical real solutions with varying n e Z. Showing one of them: -3/8 + 1/8 * sqrt(9 - 8*π + 32*π)
 
 
+def cube_root(x):
+    """
+    A cube root function
+    :param x: The argument of the function
+    :return: The function itself
+    """
+    return pow(abs(x), float(1) / 3) if x > 0 else -pow(abs(x), float(1) / 3)
+    # Has an analytical solution in x=0
+
+
 if __name__ == "__main__":
     a = 0.5
     b = 1
-    # solution_regula = regula_falsi(test_function, a, b, epsilon, 1)
-    # solution_newton = newton_raphson(test_function, a, b, epsilon, 1)
-    # analytical_sol = (1.0 / 3) * (
-    #        1 - pow((2.0 / (79 - 9 * np.sqrt(77))), 1.0 / 3) - pow((1.0 / 2 * (79 - 9 * np.sqrt(77))), 1.0 / 3))
-    analytical_sol = -3.0 / 8 + 1.0 / 8 + np.sqrt(9 - 8 * np.pi + 32 * np.pi)  # 0.7733563232...
+    analytical_sol = -3/8 + 1/8 * np.sqrt(9 - 8*math.pi + 32*math.pi)
     generate_comparative_report(trigonometric_function, a, b, "trigonometric_non_contig",
                                 analytical_solution=analytical_sol)

@@ -2,6 +2,8 @@ import inspect
 from scipy.misc import derivative
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
+import math
 
 
 def test_conditions_for_solution_existence(function, a, b):
@@ -50,7 +52,7 @@ def convergence_criterion_3(epsilon, x_curr, x_prev):
     :param x_prev: X in iteration k-1 (previous iteration)
     :return: True/False
     """
-    return abs((x_curr - x_prev) / x_curr) < epsilon
+    return abs((x_curr - x_prev) / max(x_curr, 1e-6)) < epsilon
 
 
 def convergence_criterion_4(epsilon, x_curr, function):
@@ -61,7 +63,7 @@ def convergence_criterion_4(epsilon, x_curr, function):
     :param function: The function for which the convergence criterion is checked
     :return: True/False
     """
-    return abs(function(x_curr) / derivative(function, x_curr)) < epsilon
+    return abs(function(x_curr) / max(1e-6, derivative(function, x_curr, dx=1e-7))) < epsilon
 
 
 def get_one_line_function_print(function):
@@ -71,7 +73,7 @@ def get_one_line_function_print(function):
     :param function: The one-liner function to print
     :return: The one-liner text after the return keyword in the function
     """
-    return inspect.getsource(function).split('"""')[2].split("\n")[1].split("return ")[1]
+    return inspect.getsource(function).split("return")[2].strip().split("\n")[0]
 
 
 def plot_scatter_bi(x, y_1, y_2, x_label, y_label_1, y_label_2, title, outpath, y_limits):
@@ -102,7 +104,8 @@ def plot_scatter_bi(x, y_1, y_2, x_label, y_label_1, y_label_2, title, outpath, 
     new_margins = (margins[0] * 2, margins[1] * 2)
     ax1.margins(x=new_margins[0], y=new_margins[1])
     ax2.margins(x=new_margins[0], y=new_margins[1])
-    plt.setp((ax1, ax2), xlim=(x[0] + 1e-2, x[-1] - 1e-2), ylim=y_limits)
+    if y_limits[0] != -math.inf and y_limits[1] != math.inf:
+        plt.setp((ax1, ax2), xlim=(x[0] + 1e-2, x[-1] - 1e-2), ylim=y_limits)
     fig.savefig(outpath)
 
 
@@ -131,7 +134,8 @@ def plot_solutions(x_1, x_2, x_label_1, x_label_2, title, outpath, x_limits):
     new_margins = (margins[0] * 2, margins[1] * 2)
     ax1.margins(x=new_margins[0], y=new_margins[1])
     ax2.margins(x=new_margins[0], y=new_margins[1])
-    plt.setp((ax1, ax2), xlim=x_limits)
+    if x_limits[0] != -math.inf and x_limits[1] != math.inf:
+        plt.setp((ax1, ax2), xlim=x_limits)
     fig.savefig(outpath)
 
 
@@ -163,7 +167,8 @@ def plot_deltas(x_1, x_2, y_1, y_2, x_label_1, x_label_2, y_label_1, y_label_2, 
     new_margins = (margins[0] * 2, margins[1] * 2)
     ax1.margins(x=new_margins[0], y=new_margins[1])
     ax2.margins(x=new_margins[0], y=new_margins[1])
-    plt.setp((ax1, ax2), ylim=y_limits)
+    if y_limits[0] != -math.inf and y_limits[1] != math.inf:
+        plt.setp((ax1, ax2), ylim=y_limits)
     fig.savefig(outpath)
 
 
@@ -179,7 +184,8 @@ def plot_function(function, a, b, function_print, outpath):
     """
     plt.figure(figsize=(15, 10))
     points = np.arange(a, b, 0.001)
-    plt.plot(points, function(points))
+    vals = [function(point) for point in points]
+    plt.plot(points, vals)
     plt.xlabel('X')
     plt.ylabel('Y')
     plt.title(function_print)

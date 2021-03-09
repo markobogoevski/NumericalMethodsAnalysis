@@ -1,33 +1,33 @@
 Function,a,b,Epsilon,Convergence Criterion,Method,Solution,Number of iterations,Time elapsed,Convergence,Precision to analytical met
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,1,newton_raphson,0.6079022029323821,2,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,1,newton_raphson,0.6079022029323821,2,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,1,newton_raphson,0.6079022029323821,2,2.002,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,1,newton_raphson,0.6079390405799042,3,4.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,1,newton_raphson,0.6079390405799042,3,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,1,newton_raphson,0.6079390405799042,3,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,1,newton_raphson,0.6079390412159374,4,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,1,newton_raphson,0.6079390412159374,4,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,2,newton_raphson,0.5989753670624012,1,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,2,newton_raphson,0.5989753670624012,1,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,2,newton_raphson,0.6079022029323821,2,1.9989999999999999,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,2,newton_raphson,0.6079022029323821,2,3.999,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,2,newton_raphson,0.6079022029323821,2,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,2,newton_raphson,0.6079390405799042,3,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,2,newton_raphson,0.6079390405799042,3,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,2,newton_raphson,0.6079390405799042,3,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,3,newton_raphson,0.6079022029323821,2,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,3,newton_raphson,0.6079022029323821,2,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,3,newton_raphson,0.6079390405799042,3,2.0010000000000003,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,3,newton_raphson,0.6079390405799042,3,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,3,newton_raphson,0.6079390405799042,3,1.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,3,newton_raphson,0.6079390405799042,3,0.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,3,newton_raphson,0.6079390412159374,4,1.0,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,3,newton_raphson,0.6079390412159374,4,1.002,Yes,Yes
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,4,newton_raphson,0.6079390412159374,60,7.001,No,"No, no convergence"
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,4,newton_raphson,0.6079390412159374,60,7.0,No,"No, no convergence"
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,4,newton_raphson,0.6079390412159374,60,6.001,No,"No, no convergence"
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,4,newton_raphson,0.6079390412159374,60,6.001,No,"No, no convergence"
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,4,newton_raphson,0.6079390412159374,60,6.0,No,"No, no convergence"
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,4,newton_raphson,0.6079390412159374,60,5.001,No,"No, no convergence"
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,4,newton_raphson,0.6079390412159374,60,7.001,No,"No, no convergence"
-np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,4,newton_raphson,0.6079390412159374,60,5.001,No,"No, no convergence"
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,1,newton_raphson,0.6079022029323821,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,1,newton_raphson,0.6079022029323821,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,1,newton_raphson,0.6079022029323821,3,3.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,1,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,1,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,1,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,1,newton_raphson,0.6079390412159374,5,1.001,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,1,newton_raphson,0.6079390412159374,5,1.002,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,2,newton_raphson,0.5989753670624012,2,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,2,newton_raphson,0.5989753670624012,2,1.001,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,2,newton_raphson,0.6079022029323821,3,1.001,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,2,newton_raphson,0.6079022029323821,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,2,newton_raphson,0.6079022029323821,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,2,newton_raphson,0.6079390405799042,4,1.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,2,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,2,newton_raphson,0.6079390405799042,4,1.002,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,3,newton_raphson,0.6079022029323821,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,3,newton_raphson,0.6079022029323821,3,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,3,newton_raphson,0.6079390405799042,4,2.999,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,3,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,3,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,3,newton_raphson,0.6079390405799042,4,1.002,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,3,newton_raphson,0.6079390412159374,5,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,3,newton_raphson,0.6079390412159374,5,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.1,4,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.05,4,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.01,4,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.005,4,newton_raphson,0.6079390405799042,4,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.001,4,newton_raphson,0.6079390412159374,5,0.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,0.0001,4,newton_raphson,0.6079390412159374,5,1.0,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-05,4,newton_raphson,0.6079390412159374,5,1.001,Yes,Yes
+np.log(x ** 3 - x ** 2 + 1 / x - 1.0 / 2),0.2,1,1e-06,4,newton_raphson,0.6079390412159374,5,1.0,Yes,Yes

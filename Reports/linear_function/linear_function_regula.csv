@@ -28,6 +28,6 @@ Function,a,b,Epsilon,Convergence Criterion,Method,Solution,Number of iterations,
 3 * (x - 3) + 3,0,3,0.01,4,regula_falsi,2.0,1,0.0,Yes,Yes
 3 * (x - 3) + 3,0,3,0.005,4,regula_falsi,2.0,1,0.0,Yes,Yes
 3 * (x - 3) + 3,0,3,0.001,4,regula_falsi,2.0,1,0.0,Yes,Yes
-3 * (x - 3) + 3,0,3,0.0001,4,regula_falsi,2.0,1,1.001,Yes,Yes
+3 * (x - 3) + 3,0,3,0.0001,4,regula_falsi,2.0,1,0.0,Yes,Yes
 3 * (x - 3) + 3,0,3,1e-05,4,regula_falsi,2.0,1,0.0,Yes,Yes
 3 * (x - 3) + 3,0,3,1e-06,4,regula_falsi,2.0,1,0.0,Yes,Yes

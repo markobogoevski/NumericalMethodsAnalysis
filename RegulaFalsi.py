@@ -12,6 +12,7 @@ def get_new_split_point_regula_c(function, a, b):
     :return: The split point
     """
     # By formula
+    print(function(a))
     c = (a * function(b) - b * function(a)) / (function(b) - function(a))
     return c
 
